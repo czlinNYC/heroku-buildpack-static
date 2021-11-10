@@ -9,7 +9,7 @@ class NginxConfig
     canonical_host: false,
     clean_urls: false,
     https_only: false,
-    max_body_size: "10M",
+    max_body_size: "30M",
     basic_auth: false,
     basic_auth_htpasswd_path: "/app/.htpasswd",
     worker_connections: 512,
